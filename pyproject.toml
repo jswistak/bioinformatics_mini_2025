@@ -1,0 +1,16 @@
+[project]
+name = "bioinformatics-mini-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "biotite>=1.4.0",
+    "gemmi>=0.7.3",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.6",
+    "pandas>=2.3.3",
+    "rdkit>=2025.3.6",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+]
