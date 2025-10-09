@@ -8,10 +8,12 @@ dependencies = [
     "biopython>=1.85",
     "biotite>=1.4.0",
     "gemmi>=0.7.3",
+    "geoparse>=0.4.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.6",
     "pandas>=2.3.3",
     "rdkit>=2025.3.6",
     "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
+    "statsmodels>=0.14.0",
 ]
