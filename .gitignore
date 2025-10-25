@@ -19,7 +19,6 @@ ipython_config.py
 # Analysis outputs
 results/
 output/
-plots/
 figures/
 *.png
 *.jpg
