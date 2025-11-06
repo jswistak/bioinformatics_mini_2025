@@ -32,3 +32,6 @@ figures/
 
 # uv specific
 .uv/
+
+# lecture generating scripts
+lectures/
