@@ -150,6 +150,7 @@ dependencies = [
     { name = "pandas" },
     { name = "py3dmol" },
     { name = "pyteomics" },
+    { name = "python-louvain" },
     { name = "python-pptx" },
     { name = "rdkit" },
     { name = "scikit-learn" },
@@ -172,6 +173,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "py3dmol", specifier = ">=2.5.3" },
     { name = "pyteomics", specifier = ">=4.7.5" },
+    { name = "python-louvain", specifier = ">=0.16" },
     { name = "python-pptx", specifier = ">=1.0.2" },
     { name = "rdkit", specifier = ">=2025.3.6" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
@@ -1788,6 +1790,16 @@ sdist = { url = "https://files.pythonhosted.org/packages/9e/de/d3144a0bceede957f
 wheels = [
     { url = "https://files.pythonhosted.org/packages/08/20/0f2523b9e50a8052bc6a8b732dfc8568abbdc42010aef03a2d750bdab3b2/python_json_logger-3.3.0-py3-none-any.whl", hash = "sha256:dd980fae8cffb24c13caf6e158d3d61c0d6d22342f932cb6e9deedab3d35eec7", size = 15163, upload-time = "2025-03-07T07:08:25.627Z" },
 ]
+
+[[package]]
+name = "python-louvain"
+version = "0.16"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "networkx" },
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7c/0d/8787b021d52eb8764c0bb18ab95f720cf554902044c6a5cb1865daf45763/python-louvain-0.16.tar.gz", hash = "sha256:b7ba2df5002fd28d3ee789a49532baad11fe648e4f2117cf0798e7520a1da56b", size = 204641, upload-time = "2022-01-29T15:53:03.532Z" }
 
 [[package]]
 name = "python-pptx"

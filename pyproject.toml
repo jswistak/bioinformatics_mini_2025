@@ -17,6 +17,7 @@ dependencies = [
     "pandas>=2.3.3",
     "py3dmol>=2.5.3",
     "pyteomics>=4.7.5",
+    "python-louvain>=0.16",
     "python-pptx>=1.0.2",
     "rdkit>=2025.3.6",
     "scikit-learn>=1.7.2",
