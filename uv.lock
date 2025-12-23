@@ -1507,6 +1507,10 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/58/63/abfd5b432429ef075e5678f96aff7641a8f8d81fda47e369eb63df4e2882/muscle-0.0.4.tar.gz", hash = "sha256:9411c54c501f3ded475eba6f9493faabf15dfa9b277e03f019a453db7339a407", size = 2899, upload-time = "2019-12-24T20:24:49.497Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/91/0f/c2ccf9e1785a9f72dfad4cdd2cc847c9c15b69d6f49a2a3de8266811b0b9/muscle-0.0.4-py3-none-any.whl", hash = "sha256:d46b5e084cdb1d1993eda6888c8b08fd5e7d742fdade0255ac1bf01cccdb72dc", size = 3782, upload-time = "2019-12-24T20:24:48.093Z" },
+]
+
+
+[[package]]
 name = "multiprocess"
 version = "0.70.18"
 source = { registry = "https://pypi.org/simple" }
